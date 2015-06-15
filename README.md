@@ -34,3 +34,39 @@ Please reply to this message to provide the steps for locating third-party ads i
 ```
 You can provide a link to a demo video of your app in iTunes Connect. Go to "Manage Your Applications," select your app, click "Edit Information," then scroll to the "Review Notes" section and add the demonstration video access details.
 ```
+###应用内有检查更新的字样
+from: <https://www.v2ex.com/t/174105>
+
+版本更新统一走App Store，所以自己的app中，不能有检查更新的功能。2015年3月份，Apple更新规则，有检查应用功能的app直接拒绝。可以改成，当前版本xxx之类的
+```
+Your app includes an update button or alerts the user to update the app. To avoid user confusion, app version updates must utilize the iOS built-in update mechanism. We’ve attached screenshot(s) for your reference.
+
+Next Steps
+
+Please remove the update feature from your app. To distribute a new version of your app, upload the new app binary version into the same iTunes Connect record you created for the app’s previous version. Updated versions keep the same Apple ID, iTunes Connect ID (SKU), and bundle ID as the original version, and are available free to customers who purchased a previous version.
+```
+
+###与html网站功能类似
+曾经做了一个移动站：m.example.com。为了快速上架，嵌套了一个UIWebview，然后load首页就提交审核，被拒，因为：
+```
+the App Store does not accept or distribute web apps
+```
+如果单纯地想复制一个功能一样的app，提交，也有可能审核不通过，因为：
+```
+We found that your app duplicates the content and functionality of apps currently submitted for review. 
+```
+from: <https://www.v2ex.com/t/120574>
+
+###App Crashes
+由于我们在开发环境下测试的app，但是提交到了Apple以后，审核员用的是线上环境，如果后台API有改动，一定要保质一致，避免崩溃。所以提交审核的时候，一定要用线上环境跑一遍。
+
+###版权
+from:<http://zhihu.com/question/20216099/answer/43732248>
+
+比如新闻聚合累的应用，审核的时候一定不要出现明显没有授权的文章，比如BBC之类的
+
+###出现第三方操作系统的名字或图标
+from: <http://zhihu.com/question/20216099/answer/46606239>
+
+第三方操作系统的图标或者名字，不能出现在应用内。例如出现Android的图标关键字被拒，截屏也一定要在iOS设备上截取，因为状态栏是不一样的。图标和Apple的相似也可能被拒绝。
+
