@@ -5,7 +5,9 @@
 
 [App Store Review Guidelines](https://developer.apple.com/app-store/review/guidelines/)是官方读物，这里搜集的是具体事例，比官方的更易懂，更具体。
 
-###使用微信、QQ等第三方登录
+官方的Rejected分为`Binary Rejected`和`Metadata Rejected`。前者需要重新排队，后者不需要。
+
+###使用微信、QQ等第三方登录(Binary Rejected)
 官方审核的机器上没有安装QQ，在这种情况下，如果提示下载QQ，就会被拒绝。
 
 ```
@@ -25,4 +27,10 @@ If you choose to allow users to log-in via WeChat, please use methods that can a
 Your iTunes Connect settings indicate that your app serves third-party advertisements. However, we were unable to locate ads in your app.
 
 Please reply to this message to provide the steps for locating third-party ads in your app. When we hear back from you, we will continue the review.
+```
+###无法测试
+我曾经开发过[体重宝](https://itunes.apple.com/app/id925697616)，一款扫描普通体重秤上的数字并识别纪录的软件，因为官方不可能买一个体重秤去试用，所以只能通过你提供的Demo视频来验证，所以你必须提供一个试用视频。另外，无论任何app，都最好附带一个Demo视频，可以放在YouTube上，这样可以很大程度的减轻审核员的工作量，更容易通过。
+
+```
+You can provide a link to a demo video of your app in iTunes Connect. Go to "Manage Your Applications," select your app, click "Edit Information," then scroll to the "Review Notes" section and add the demonstration video access details.
 ```
