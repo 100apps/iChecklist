@@ -70,3 +70,39 @@ from: <http://zhihu.com/question/20216099/answer/46606239>
 
 第三方操作系统的图标或者名字，不能出现在应用内。例如出现Android的图标关键字被拒，截屏也一定要在iOS设备上截取，因为状态栏是不一样的。图标和Apple的相似也可能被拒绝。
 
+###邀请码
+app只有使用邀请码才能进入，被拒绝：
+
+```
+2.22 - Apps that arbitrarily restrict which users may use the App, such as by location or carrier, may be rejected
+
+2.22 Details
+
+Your app arbitrarily restrict users by requiring invitation code to register, which is not allowed on the App Store.
+
+We’ve attached screenshot(s) for your reference.
+
+Next Steps
+
+Please revise your app to remove any functionality that limits who can use the app.
+```
+
+###应用截屏没有真正的截屏相关的图片
+
+我们的app使用了设计师给的插画作截屏，被拒
+
+```
+3.3 - Apps with names, descriptions, screenshots, or previews not relevant to the content and functionality of the App will be rejected
+
+3.3 Details
+
+We also noticed that your marketing screenshot(s) do not sufficiently reflect your app in use.
+
+We've attached screenshot(s) for your reference.
+
+Next Steps
+
+Please revise your screenshots to demonstrate the app functionality in use.
+
+Since your iTunes Connect Application State is Rejected, a new binary will be required. Make the desired metadata changes when you upload the new binary.
+```
