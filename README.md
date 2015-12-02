@@ -106,3 +106,31 @@ Please revise your screenshots to demonstrate the app functionality in use.
 
 Since your iTunes Connect Application State is Rejected, a new binary will be required. Make the desired metadata changes when you upload the new binary.
 ```
+
+###应用标题无关关键词堆砌
+
+我们做aso的同事发过来一堆无关的关键词，堆砌到应用标题里面，比如，京东、淘宝之类的。被`元数据拒绝`
+
+
+```
+ 3.4 - App names in iTunes Connect and as displayed on a device should be similar, so as not to cause confusion
+
+3.4 Details
+
+Your app name to be displayed on the App Store includes keywords or descriptors, which are not appropriate for use in an app name.
+
+Specifically, the following words in your app name are considered keywords or descriptors:
+
+宜家美物、绝美图库、装修攻略、常用软件、实惠海淘，生活助手，居家必备、时尚创意、最美装潢
+
+Next Steps
+
+Please revise your app name to remove all keywords and descriptions. Keywords can be entered in the Keywords field in iTunes Connect to be used as search terms for your app.
+
+Resources
+
+For information on how to revise your app name, please see Renaming a Project or App.
+
+For information on changing the app name and other metadata in iTunes Connect, please see the section, “Viewing and Changing Your App’s Metadata,” in the iTunes Connect Developer Guide.
+
+```
