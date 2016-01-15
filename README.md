@@ -134,3 +134,27 @@ For information on how to revise your app name, please see Renaming a Project or
 For information on changing the app name and other metadata in iTunes Connect, please see the section, “Viewing and Changing Your App’s Metadata,” in the iTunes Connect Developer Guide.
 
 ```
+
+#版权问题
+
+老外的版权意识很强，所有最好能够为App Store审核单独做一套数据。某些关键词比如android是绝对不能出现的。
+
+而且是二进制拒绝，非常严重。
+
+```
+8.5 Details Your app includes content or features that resemble a well-known third-party material, Disney, without the necessary
+
+     8.5 - Apps may not use protected third party material such as trademarks, copyrights, patents or violate 3rd party terms of use. Authorization to use such material must be provided upon request
+
+8.5 Details
+
+Your app includes content or features that resemble a well-known third-party material, Disney, without the necessary authorization. We’ve attached screenshot(s) for your reference.
+
+Pursuant to your agreement with Apple, you represent and warrant that your application does not infringe the rights of another party, and that you are responsible for any liability to Apple because of a claim that your application infringes another party's rights. Moreover, we may reject or remove your application for any reason, at our sole discretion.
+
+Next Steps
+
+Please provide documentary evidence of rights to use this content in your app. Once Legal has reviewed your documentation and confirms its validity, we will proceed with the review of your app.
+
+```
+
